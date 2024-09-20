@@ -1,11 +1,11 @@
 <p> Name: Anh Tran </p> 
-</br>
 <p>Project 1: CSC 249: Computer Networks - Fall 2024</p> 
-## Overview
-This is a Remote Procedure Call (RPC) client-server application that supports 2 operations:
+<h2>Overview</h2>
+<p>
+  This is a Remote Procedure Call (RPC) client-server application that supports 2 operations:
 - Converting currency: is used for converting money amount from one currency to another one using data from Alpha Vantage API. 
 - Converting timezone: is used for converting current time from one timezone to another one using pytz library from Python
-
+</p>
 ## How to run and test the application
 ### Set up project environment 
 - Clone the project repository
