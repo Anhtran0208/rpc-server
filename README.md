@@ -1,4 +1,5 @@
 Name: Anh Tran
+Project 1: CSC 249: Computer Networks - Fall 2024
 ## Overview
 This is a Remote Procedure Call (RPC) client-server application that supports 2 operations:
 - Converting currency: is used for converting money amount from one currency to another one using data from Alpha Vantage API. 
