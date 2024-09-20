@@ -12,18 +12,28 @@
     </li>
   </ul>
 </p>
-## How to run and test the application
-### Set up project environment 
-- Clone the project repository
-- Navigate to the project directory: cd rpc-server
-- Install dependencies: pip install -r requirements.txt
-- Create Alpha Vantage API key:
-  - Go to 'https://www.alphavantage.co/' and click "Get Free API Key"
-  - Follow instructions to get your API key
-  - Copy and store generated API key
-- Create .env file:
-  - Inside the project directory, create .env file
-  - Put API_KEY=<your_api_key> inside that file
+<h2> How to run and test the application </h2>
+<h3>Set up project environment </h3>  
+<ul>
+  <li> Clone the project repository</li>
+  <li>Navigate to the project directory: <b> cd rpc-server </b></li>
+  <li>Install dependencies: <b>pip install -r requirements.txt</b> </li>
+  <li>
+    Create Alpha Vantage API key:
+    <ul>
+      <li> Go to <b> https://www.alphavantage.co/ </b> and click "Get Free API Key" </li>
+      <li> Follow instructions to get your API key </li>
+      <li>Copy and store generated API key </li>
+    </ul>
+  </li>
+  <li> 
+    Create .env file 
+    <ul> 
+      <li> Inside the project directory, create .env file </li>
+      <li> Put API_KEY=<your_api_key> inside that file </li>
+    </ul>
+  </li>
+</ul>
 
 ### Run the server
 python3 server.py
