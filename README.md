@@ -9,7 +9,6 @@
     </li>
     <li>
       Converting timezone: is used for converting current time from one timezone to another one using pytz library from Python
-
     </li>
   </ul>
 </p>
