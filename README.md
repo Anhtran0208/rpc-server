@@ -15,7 +15,7 @@
 <h2> How to run and test the application </h2>
 <h3>Set up project environment </h3>  
 <ul>
-  <li> Clone the project repository</li>
+  <li> Clone the project repository: <b> git clone https://github.com/Anhtran0208/rpc-server.git </b></li>
   <li>Navigate to the project directory: <b> cd rpc-server </b></li>
   <li>Install dependencies: <b>pip install -r requirements.txt</b> </li>
   <li>
@@ -35,22 +35,36 @@
   </li>
 </ul>
 
-### Run the server
-python3 server.py
+<h3>Run the server </h3> 
+<p> <b>python3 server.py </b></p>
+<h3> Run the client </h3>
+<h4>Convert currency</h4>
 
-### Run the client
-- Convert currency: python3 client.py currency <amount> <from_currency> <to_currency>
-  - Example: python3 client.py currency 100 USD EUR
-  - Expected output: 
-    - Connection established, sending b'currency:100:USD:EUR'
-    - Message sent, waiting for reply
-    - Received response: 100.0 USD is equal to 89.56 EUR
-- Convert timezone: python3 client.py timezone <from_timezone> <to_timezone>
-  - Example: python3 client.py timezone EST UTC
-  - Expected output:
-    - Client starting - connecting to server at IP 127.0.0.1 and port 65432
-    - Connection established, sending b'timezone:2024-09-20 18:07:13:EST:UTC'
-    - Message sent, waiting for reply
-    - Received response: 2024-09-20 23:07:13
+  <ul>
+    <li>
+      Command: <b> python3 client.py currency <amount> <from_currency> <to_currency> </b>
+    </li>
+    <li> Example: <b>python3 client.py currency 100 USD EUR </b></li>
+    <li> 
+      Expected output: 
+      <p>Connection established, sending b'currency:100:USD:EUR'</p>
+      <p>Message sent, waiting for reply</p>
+      <p> Received response: 100.0 USD is equal to 89.56 EUR</p>
+    </li>
+  </ul>
 
-If you have any issues when running application, please contact me via tran36a@mtholyoke.edu.
+<h4>Convert time zone </h4>
+<ul>
+    <li>
+      Command: <b> python3 client.py timezone <from_timezone> <to_timezone> </b>
+    </li>
+    <li> Example: <b> python3 client.py timezone EST UTC </b></li>
+    <li> 
+      Expected output: 
+      <p>Client starting - connecting to server at IP 127.0.0.1 and port 65432 </p>
+      <p>Message sent, waiting for reply</p>
+      <p>Received response: 2024-09-20 23:07:13</p>
+    </li>
+  </ul>
+
+<p> If you have any issues when running application, please contact me via tran36a@mtholyoke.edu. </p>
