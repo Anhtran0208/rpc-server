@@ -30,7 +30,7 @@
     Create .env file 
     <ul> 
       <li> Inside the project directory, create .env file </li>
-      <li> Put API_KEY=<your_api_key> inside that file </li>
+      <li> Put API_KEY= <i>your_api_key </i> inside that file </li>
     </ul>
   </li>
 </ul>
@@ -42,7 +42,7 @@
 
   <ul>
     <li>
-      Command: <b> python3 client.py currency '<amount>' '<from_currency>' '<to_currency>' </b>
+      Command: <b> python3 client.py currency <i>amount</i> <i>from_currency</i> <i>to_currency</i> </b>
     </li>
     <li> Example: <b>python3 client.py currency 100 USD EUR </b></li>
     <li> 
@@ -56,7 +56,7 @@
 <h4>Convert time zone </h4>
 <ul>
     <li>
-      Command: <b> python3 client.py timezone <from_timezone> <to_timezone> </b>
+      Command: <b> python3 client.py timezone <i>from_timezone</i> <i>to_timezone</i> </b>
     </li>
     <li> Example: <b> python3 client.py timezone EST UTC </b></li>
     <li> 
