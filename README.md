@@ -42,7 +42,7 @@
 
   <ul>
     <li>
-      Command: <b> python3 client.py currency <amount> <from_currency> <to_currency> </b>
+      Command: <b> python3 client.py currency '<amount>' '<from_currency>' '<to_currency>' </b>
     </li>
     <li> Example: <b>python3 client.py currency 100 USD EUR </b></li>
     <li> 
