@@ -24,15 +24,15 @@ python3 server.py
 - Convert currency: python3 client.py currency <amount> <from_currency> <to_currency>
   - Example: python3 client.py currency 100 USD EUR
   - Expected output: 
-    Connection established, sending b'currency:100:USD:EUR'
-    Message sent, waiting for reply
-    Received response: 100.0 USD is equal to 89.56 EUR
+    - Connection established, sending b'currency:100:USD:EUR'
+    - Message sent, waiting for reply
+    - Received response: 100.0 USD is equal to 89.56 EUR
 - Convert timezone: python3 client.py timezone <from_timezone> <to_timezone>
   - Example: python3 client.py timezone EST UTC
   - Expected output:
-    Client starting - connecting to server at IP 127.0.0.1 and port 65432
-    Connection established, sending b'timezone:2024-09-20 18:07:13:EST:UTC'
-    Message sent, waiting for reply
-    Received response: 2024-09-20 23:07:13
+    - Client starting - connecting to server at IP 127.0.0.1 and port 65432
+    - Connection established, sending b'timezone:2024-09-20 18:07:13:EST:UTC'
+    - Message sent, waiting for reply
+    - Received response: 2024-09-20 23:07:13
 
 If you have any issues when running application, please contact me via tran36a@mtholyoke.edu.
